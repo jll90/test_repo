@@ -1,0 +1,36 @@
+#PLUGIN CONFIGURATION
+#Remember to only use spaces for indentation.
+#You can check if your yaml configuration is valid
+#by visiting www.yamllint.com and copying and pasting 
+#your code
+
+base_url: http://localhost:3000
+plugin_name: My plugin
+plugin_id: Plugin ID
+plugin_description: This is what the plugin does.
+author_name: Your name
+icon_url: http://localhost:3000/img/logo.png
+price: 0
+currency: CLP
+message_support: true
+
+# To add webhooks continue down the file as in the example below.
+# The dash prefix denotes array values in JSON.
+# You can see the output of this file in JSON format at
+# localhost:3000/descriptor
+
+webhooks:
+  first_webhook:
+    id: webhook_id
+    routes:
+      - http://localhost:3000/first_webhook
+    triggers:
+      - foo
+      - bar
+  second_webhook:
+    id: webhook_id
+    routes:
+      - http://localhost:3000/second_webhook
+    triggers:
+      - foo
+      - bar
