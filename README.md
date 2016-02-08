@@ -34,12 +34,12 @@ send messages to the correct URL.
 Verifies the application is functioning correctly.
 
 2. /published [POST]
-```json
-{
-    "client_id": "string",
-    "client_secret": "string"
-}
-```
+	```json
+	{
+    	"client_id": "string",
+    	"client_secret": "string"
+	}
+	```
 Uses the above-shown json object to authenticate via Oauth.
 
 3. /installed [POST]
