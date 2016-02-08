@@ -73,7 +73,6 @@ Takes a json object in the following format:
 	```
 
 5. /descriptor [GET]
-
 Shows you how the plugin is to be configured. You can configure it by editing plugin.yml inside the config directory. Don't forget that you must restart your rails server for changes to take effect.
 
 
