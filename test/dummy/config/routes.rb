@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount Zintegrator::Engine => "/"
+  mount Zintegrator::Engine => '/'
 end
