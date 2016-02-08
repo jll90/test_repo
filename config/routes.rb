@@ -6,8 +6,8 @@ Zintegrator::Engine.routes.draw do
 	post 'uninstalled' => 'teams#destroy'
 
 	post 'published' => 'clients#create'
-	get  'healthcheck' => 'plugin#healthcheck'
+	get  'healthcheck' => 'application#healthcheck'
 
-	root 'plugin#home'
+	root 'application#home'
 
 end
