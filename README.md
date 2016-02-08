@@ -87,4 +87,4 @@ Don't forget you must configure a valid URL inside the config/initializers/zinte
 
 ###Note 
 
-If you get an invalid parameter on your post requests after running the installation and configuration commands, restart your server.
+If you get an invalid parameter message on your post requests after running the installation and configuration commands, restart your server.
