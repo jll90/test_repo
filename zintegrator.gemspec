@@ -7,17 +7,15 @@ require "zintegrator/version"
 Gem::Specification.new do |s|
   s.name        = "zintegrator"
   s.version     = Zintegrator::VERSION
-  s.authors     = ["jesus"]
+  s.authors     = ["jll90"]
   s.email       = ["jesus.luongo.lizana@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Zintegrator."
-  s.description = "TODO: Description of Zintegrator."
+  s.homepage    = ""
+  s.summary     = "Plugin integrator."
+  s.description = "Allows for easier integration of plugins."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.3"
-
-  s.add_development_dependency "sqlite3"
 end
