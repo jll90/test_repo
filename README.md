@@ -31,7 +31,6 @@ send messages to the correct URL.
 ### Routes
 
 1. /healthcheck [HEAD]
-
 Verifies the application is functioning correctly.
 
 2. /published [POST]
@@ -44,8 +43,8 @@ Verifies the application is functioning correctly.
 Uses the above-shown json object to authenticate via Oauth.
 
 3. /installed [POST]
-
 Takes a json object in the following format:
+
 	```json
 	{
 	    "team_id": "string",
@@ -65,8 +64,8 @@ Takes a json object in the following format:
 	```
 
 4. /uninstalled [POST]
-
 Takes a json object in the following format:
+
 	```json
 	{
 	    "team_id": "string"
