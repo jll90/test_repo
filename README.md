@@ -31,6 +31,7 @@ send messages to the correct URL.
 ### Routes
 
 1. /healthcheck [HEAD]
+
 Verifies the application is functioning correctly.
 
 2. /published [POST]
@@ -43,6 +44,7 @@ Verifies the application is functioning correctly.
 Uses the above-shown json object to authenticate via Oauth.
 
 3. /installed [POST]
+
 Takes a json object in the following format:
 	```json
 	{
@@ -63,6 +65,7 @@ Takes a json object in the following format:
 	```
 
 4. /uninstalled [POST]
+
 Takes a json object in the following format:
 	```json
 	{
@@ -71,6 +74,7 @@ Takes a json object in the following format:
 	```
 
 5. /descriptor [GET]
+
 Shows you how the plugin is to be configured. You can configure it by editing plugin.yml inside the config directory. Don't forget that you must restart your rails server for changes to take effect.
 
 
