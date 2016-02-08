@@ -84,3 +84,7 @@ You can call the function send_message as follows from anywhere inside the appli
 	```
 
 Don't forget you must configure a valid URL inside the config/initializers/zintegrator.rb, for this function to work. Message up to 400 characters long. 
+
+###Note 
+
+If you get an invalid parameter on your post requests after running the installation and configuration commands, restart your server.
