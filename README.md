@@ -44,34 +44,34 @@ Uses the above-shown json object to authenticate via Oauth.
 
 3. /installed [POST]
 Takes a json object in the following format:
-```json
-{
-    "team_id": "string",
-    "team_name": "string",
-    "webhook": {
-        "incoming": {
-            "token": "string"
-        },
-        "outgoing": [
-            {
-                "key": "string",
-                "token": "string"
-            }
-        ]
-    }
-}
-```
+	```json
+	{
+	    "team_id": "string",
+	    "team_name": "string",
+	    "webhook": {
+	        "incoming": {
+	            "token": "string"
+	        },
+	        "outgoing": [
+	            {
+	                "key": "string",
+	                "token": "string"
+	            }
+	        ]
+	    }
+	}
+	```
 
 4. /uninstalled [POST]
 Takes a json object in the following format:
-```json
-{
-    "team_id": "string"
-}
-```
+	```json
+	{
+	    "team_id": "string"
+	}
+	```
 
 5. /descriptor [GET]
-Shows you how the plugin is to be configured.
+Shows you how the plugin is to be configured. You can configure it by editing plugin.yml inside the config directory. Don't forget that you must restart your rails server for changes to take effect.
 
 
 ### Send messages
